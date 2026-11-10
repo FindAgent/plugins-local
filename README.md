@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://findagent.cloud">findagent.cloud</a> ·
   <a href="https://findagent.cloud/security">Security</a> ·
-  <a href="https://github.com/FindAgent/plugins">Main marketplace</a>
+  <a href="https://github.com/FindAgent/plugins">Main catalog</a>
 </p>
 
 ---
@@ -22,16 +22,16 @@
 This repository is a **generated mirror** of the FindAgent catalog's local tier. Do not open pull requests
 against it — changes are overwritten on the next sync.
 
-## Add the marketplace
+## Add the catalog
 
 | Client | Command |
 |---|---|
 | Claude Code | `/plugin marketplace add FindAgent/plugins-local` |
 | GitHub Copilot CLI | `copilot plugin marketplace add FindAgent/plugins-local` |
 | VS Code | add `FindAgent/plugins-local` to `chat.plugins.marketplaces` |
-| Codex | add the marketplace `FindAgent/plugins-local` |
+| Codex | add the catalog `FindAgent/plugins-local` |
 
-Most agents do not need this tier. The main marketplace is
+Most agents do not need this tier. The main catalog is
 [FindAgent/plugins](https://github.com/FindAgent/plugins).
 
 ## License
